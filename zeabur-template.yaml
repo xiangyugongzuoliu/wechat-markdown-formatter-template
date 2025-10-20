@@ -8,8 +8,6 @@ spec:
   description: 将 Markdown 转换为适配微信公众号的富文本 HTML，支持 17+ 种主题和代码高亮。
 
   icon: https://raw.githubusercontent.com/xiangyugongzuoliu/wechat-markdown-formatter-template/main/icon.svg
-  coverImage: https://raw.githubusercontent.com/xiangyugongzuoliu/wechat-markdown-formatter-template/main/icon.svg
-
   author: 翔宇工作流
 
   tags:

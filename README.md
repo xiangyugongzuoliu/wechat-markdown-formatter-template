@@ -19,7 +19,7 @@
 
 ## 🚀 一键部署
 
-[![Deploy on Zeabur](https://zeabur.com/button.svg)](https://zeabur.com/templates/719LP9?referralCode=xiangyugongzuoliu)
+[![Deploy on Zeabur](https://zeabur.com/button.svg)](https://zeabur.com/templates/RRG3Z1?referralCode=xiangyugongzuoliu)
 
 点击上方按钮，一键部署到 Zeabur。
 

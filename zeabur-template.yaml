@@ -18,7 +18,7 @@ spec:
     - 微信公众号
     - 排版工具
 
-  readme: https://raw.githubusercontent.com/xiangyugongzuoliu/wechat-markdown-formatter-template/main/README.md
+  readme: https://github.com/xiangyugongzuoliu/wechat-markdown-formatter-template
 
   source:
     type: git

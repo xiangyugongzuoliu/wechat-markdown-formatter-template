@@ -10,7 +10,9 @@
 </p>
 
 <p align="center">
-  🌐 <a href="https://xiangyugongzuoliu.com/">https://xiangyugongzuoliu.com/</a>
+  🌐 <a href="https://xiangyugongzuoliu.com/">官网</a> |
+  📦 <a href="https://github.com/xiangyugongzuoliu/wechat-markdown-formatter-template">GitHub 仓库</a> |
+  🐳 <a href="https://hub.docker.com/r/xiangyugongzuoliu/wechat-markdown-formatter">Docker Hub</a>
 </p>
 
 ---

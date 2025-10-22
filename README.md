@@ -115,8 +115,5 @@ https://your-app-name.zeabur.app
 
 ---
 
-## 📄 许可说明
 
-本项目基于 Docker 镜像部署，镜像由作者构建并发布。
 
-Docker 镜像：`xiangyugongzuoliu/wechat-markdown-formatter:latest`

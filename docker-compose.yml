@@ -1,0 +1,19 @@
+version: '3.8'
+
+services:
+  wechat-formatter:
+    image: xiangyugongzuoliu/wechat-markdown-formatter:latest
+    container_name: wechat-markdown-formatter
+    ports:
+      - "${PORT:-8081}:8081"
+    environment:
+      - NODE_ENV=production
+      - PORT=8081
+      - API_TOKEN=${API_TOKEN:-xiangyugongzuoliu}
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "wget", "--quiet", "--tries=1", "--spider", "http://localhost:8081/health"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 40s

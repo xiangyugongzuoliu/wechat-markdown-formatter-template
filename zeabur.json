@@ -1,0 +1,29 @@
+{
+  "name": "WeChat Markdown Formatter",
+  "description": "微信公众号 Markdown 排版工具 - 支持代码高亮、17+ 种主题、智能脚注引用",
+  "tags": [
+    "markdown",
+    "wechat",
+    "formatter",
+    "converter",
+    "微信公众号"
+  ],
+  "readme": "https://raw.githubusercontent.com/xiangyugongzuoliu/wechat-markdown-formatter-template/main/README.md",
+  "env": {
+    "API_TOKEN": {
+      "description": "API 认证令牌（自定义后请妥善保管）",
+      "default": "xiangyugongzuoliu",
+      "required": true
+    },
+    "PORT": {
+      "description": "服务端口",
+      "default": "8081",
+      "required": false
+    },
+    "NODE_ENV": {
+      "description": "运行环境",
+      "default": "production",
+      "required": false
+    }
+  }
+}

@@ -1,0 +1,54 @@
+apiVersion: zeabur.com/v1
+kind: Template
+metadata:
+  name: wechat-markdown-formatter
+
+spec:
+  name: WeChat Markdown Formatter
+  description: 将 Markdown 转换为适配微信公众号的富文本 HTML，支持 17+ 种主题和代码高亮。
+
+  icon: https://raw.githubusercontent.com/xiangyugongzuoliu/wechat-markdown-formatter-template/main/icon.svg
+  author: 翔宇工作流
+
+  tags:
+    - markdown
+    - wechat
+    - formatter
+    - converter
+    - 微信公众号
+    - 排版工具
+
+  readme: https://github.com/xiangyugongzuoliu/wechat-markdown-formatter-template
+
+  source:
+    type: git
+    url: https://github.com/xiangyugongzuoliu/wechat-markdown-formatter-template
+
+  variables:
+    - key: API_TOKEN
+      type: STRING
+      name: API 认证令牌
+      description: 自定义 API Token 以保护你的服务（建议修改，默认：xiangyugongzuoliu）
+
+  services:
+    - name: wechat-formatter
+      template: PREBUILT
+      spec:
+        id: wechat-formatter
+        name: WeChat Markdown Formatter
+        icon: https://raw.githubusercontent.com/xiangyugongzuoliu/wechat-markdown-formatter-template/main/icon.svg
+        source:
+          image: xiangyugongzuoliu/wechat-markdown-formatter:latest
+        ports:
+          - id: web
+            port: 8081
+            type: HTTP
+        volumes: []
+        env:
+          NODE_ENV:
+            default: production
+          PORT:
+            default: "8081"
+          API_TOKEN:
+            default: xiangyugongzuoliu
+            expose: true

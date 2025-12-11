@@ -103,7 +103,7 @@ https://your-app-name.zeabur.app
 
 ## 📝 项目说明
 
-本项目为自用工具。
+本项目为自用工具，用于将 Markdown 文章转换为微信公众号兼容的格式。
 
 ---
 

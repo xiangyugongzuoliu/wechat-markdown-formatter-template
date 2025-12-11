@@ -1,6 +1,6 @@
 # WeChat Markdown Formatter - Zeabur 部署模板
 
-> Version: 1.0.0
+> Version: 1.0.0 | Last Updated: 2025-12-11
 
 <p align="center">
   <strong>微信公众号 Markdown 排版工具</strong>

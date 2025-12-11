@@ -122,3 +122,9 @@ https://your-app-name.zeabur.app
 本项目基于 Docker 镜像部署，镜像由作者构建并发布。
 
 Docker 镜像：`xiangyugongzuoliu/wechat-markdown-formatter:latest`
+
+---
+
+## 👤 作者
+
+**翔宇** - [GitHub](https://github.com/xiangyugongzuoliu)
